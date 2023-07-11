@@ -1,0 +1,123 @@
+body {
+    background: var(--020-a-18, #020A18);
+    width: 1921px;
+    height: 1030px;
+    flex-shrink: 0;
+}
+
+.top {
+    width: 1920px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: #020A18;
+
+}
+
+.top_link {
+    color: var(--ffffff, #FFF);
+    /* font-family: Open Sans; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    padding: 0 100px;
+}
+
+.info {
+    width: 1146;
+    height: 415;
+    padding: 0 10px;
+
+
+}
+
+.info_h1 {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    display: flex;
+    width: 604px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.info_h2 {
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.info_paragraph {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    display: flex;
+    width: 558px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.info_buttons {
+    display: inline-flex;
+    padding: 30px 0;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+button {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    /* gap: 10px; */
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    /* width: 190px; */
+    height: 57px;
+}
+
+.info_play {
+    width: 26px;
+    height: 27px;
+    padding: 0 10px;
+}
+.menu{
+    padding: 0 350px;
+}
+
+.picture{
+    padding: 0;
+    margin: 0;
+}
+.bottom{
+    padding: 150px 150px;
+    /* justify-content: center; */
+}
+
+.bottom_picture{
+    height: 59px;
+    padding: 0 40px;
+}
+    
